@@ -136,7 +136,7 @@ class ObjectTracker:
             flag, self.frame = self.v_handle.read()
 
 def main():
-    ot = ObjectTracker('d:/rahulcomp/temp/a.mp4')
+    ot = ObjectTracker('c:/parthcomp/temp/a.mp4')
     ot.track()
 
 main()
